@@ -33,7 +33,7 @@ public class Command extends CommandBase
 
   //End Command
   @Override
-  public void end(boolean interrupted) {Command_Complete = interrupted;}
+  public void end() {Command_Complete = true;}
 
   //Return Command Complete
   @Override
